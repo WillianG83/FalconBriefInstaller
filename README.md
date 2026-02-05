@@ -56,27 +56,27 @@ In addition to custom pages, config.ini located in Documents\FalconBrief allow f
 - UnifiedPages, 0 ... N comma separeted list. Indicated which page to generate and the order for unified kneeboard
 
 Page Codes:
-0 = MissionData
-1 = Commns
-2 = SPINS
-3 = IFF
-4 = Link16
-5 = Loadout
-6 = WaypointAndTargets
-7 = ThreatsTable
-8 = Airports
-9 = LExtraCommon
-10 = LExtraPlatform
-11 = LExtraVariation
-12 = NormalChecklist
-13 = EmergencyChecklist
-14 = BulleyeMap
-15 = FlightPathMap
-16 = EngagementZoneMap
-17 = CAS
-18 = Notes
-19 = RExtraCommon
-20 = RExtraPlatform
-21 = RExtraVariation
+0 = MissionData  
+1 = Commns  
+2 = SPINS  
+3 = IFF  
+4 = Link16  
+5 = Loadout  
+6 = WaypointAndTargets  
+7 = ThreatsTable  
+8 = Airports  
+9 = LExtraCommon  
+10 = LExtraPlatform  
+11 = LExtraVariation  
+12 = NormalChecklist  
+13 = EmergencyChecklist  
+14 = BulleyeMap  
+15 = FlightPathMap  
+16 = EngagementZoneMap  
+17 = CAS  
+18 = Notes  
+19 = RExtraCommon  
+20 = RExtraPlatform  
+21 = RExtraVariation  
 
 Custom files are always rendered after the default pages. 
