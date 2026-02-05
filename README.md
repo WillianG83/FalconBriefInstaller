@@ -3,7 +3,7 @@
 A lightweight utility that converts DTC and Briefing data into Kneeboard pages. In addition to briefing it also includes map pages for reference and customized checklists, pdf and images. This product is meant to be used with Falcon 4.38.
 
 ## Limitations: 
-- Due to BMS not adding all steerpoints inside DTC files but rather just a subset, bullseye stpt is not present. In order to overcome this limitation the user must set the last PPT above the bullseye and set "BRAVO" as label. This will hit the software to where the bullseye is located. 
+- Due to BMS not adding all steerpoints inside DTC files but rather just a subset, bullseye stpt is not present. In order to overcome this limitation the user must set the last PPT above the bullseye and set "BRAVO" as label. This will hint the software to where the bullseye is located. 
 - Fuel plan is very conservative
 - Airports runway ILS are WIP
 
@@ -28,7 +28,7 @@ A lightweight utility that converts DTC and Briefing data into Kneeboard pages. 
 - Notes
 
 ## How to use?
-Once the user is satisfied with the mission params (loadout, paths, ppt and lines) the user must ensure that the last ppt matches the bullseye location and is set to BRAVO. Then the user clicks print briefing (which must be set to output as text) and then clicks save DTC. After this operation the software will save the output in "Documents\FalconBrief\output".  
+Once the user is satisfied with the mission params (loadout, paths, ppt and lines) the user must ensure that the last ppt matches the bullseye location and is set to BRAVO. Then the user clicks print briefing (which must be set to output as text) and then clicks save DTC. For last but not least the user run the application FalconBrief.exe and after this operation the software will save the output in "Documents\FalconBrief\output".  
 
 Adding custom checklist, images or PDF is supported. This is done by replicating the following filesystem:
 
