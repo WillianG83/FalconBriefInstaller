@@ -55,7 +55,7 @@ In addition to custom pages, config.ini located in Documents\FalconBrief allow f
 - RightPages, 0 ... N comma separeted list. Indicated which page to generate and the order for right kneeboard
 - UnifiedPages, 0 ... N comma separeted list. Indicated which page to generate and the order for unified kneeboard
 
-Page Codes:
+Page Codes:  
 0 = MissionData  
 1 = Commns  
 2 = SPINS  
@@ -78,5 +78,3 @@ Page Codes:
 19 = RExtraCommon  
 20 = RExtraPlatform  
 21 = RExtraVariation  
-
-Custom files are always rendered after the default pages. 
