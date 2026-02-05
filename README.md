@@ -44,9 +44,39 @@ Documents
          |- {platform}
          |- {platform+variation}
 
-Obviously left and right distinction indicates where the custom file will be rendered. Rendering rules:
+Rendering rules:
 - common, are always rendered
 - {platform} (es. F-16, F-15), are rendered only when the player aircraft platform matches
 - {platform+variation} (es. F-16C, F-15C), are rendered only when the player aircraft platform and variation matches.
+
+In addition to custom pages, config.ini located in Documents\FalconBrief allow further fine tunes:
+- HighContrastMap, 0 or 1. Use colorized or high contrast image for map
+- LeftPages, 0 ... N comma separeted list. Indicated which page to generate and the order for left kneeboard
+- RightPages, 0 ... N comma separeted list. Indicated which page to generate and the order for right kneeboard
+- UnifiedPages, 0 ... N comma separeted list. Indicated which page to generate and the order for unified kneeboard
+
+Page Codes:
+0 = MissionData
+1 = Commns
+2 = SPINS
+3 = IFF
+4 = Link16
+5 = Loadout
+6 = WaypointAndTargets
+7 = ThreatsTable
+8 = Airports
+9 = LExtraCommon
+10 = LExtraPlatform
+11 = LExtraVariation
+12 = NormalChecklist
+13 = EmergencyChecklist
+14 = BulleyeMap
+15 = FlightPathMap
+16 = EngagementZoneMap
+17 = CAS
+18 = Notes
+19 = RExtraCommon
+20 = RExtraPlatform
+21 = RExtraVariation
 
 Custom files are always rendered after the default pages. 
