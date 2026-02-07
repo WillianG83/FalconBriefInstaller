@@ -50,31 +50,33 @@ Rendering rules:
 - {platform+variation} (es. F-16C, F-15C), are rendered only when the player aircraft platform and variation matches.
 
 In addition to custom pages, config.ini located in Documents\FalconBrief allow further fine tunes:
+- GenerateDDS, 0 or 1. Generate DDS and swap with default textures
 - HighContrastMap, 0 or 1. Use colorized or high contrast image for map
 - LeftPages, 0 ... N comma separeted list. Indicated which page to generate and the order for left kneeboard
 - RightPages, 0 ... N comma separeted list. Indicated which page to generate and the order for right kneeboard
 - UnifiedPages, 0 ... N comma separeted list. Indicated which page to generate and the order for unified kneeboard
 
-Page Codes:  
-0 = MissionData  
-1 = Commns  
-2 = SPINS  
-3 = IFF  
-4 = Link16  
-5 = Loadout  
-6 = WaypointAndTargets  
-7 = ThreatsTable  
+Page Codes:
+0 = MissionData
+1 = Commns
+2 = SPINS
+3 = IFF
+4 = Link16
+5 = Loadout
+6 = WaypointAndTargets
+7 = ThreatsTable
 8 = Airports  
-9 = LExtraCommon  
-10 = LExtraPlatform  
-11 = LExtraVariation  
-12 = NormalChecklist  
-13 = EmergencyChecklist  
-14 = BulleyeMap  
-15 = FlightPathMap  
-16 = EngagementZoneMap  
-17 = CAS  
-18 = Notes  
-19 = RExtraCommon  
-20 = RExtraPlatform  
-21 = RExtraVariation  
+9 = StationsList  
+10 = LExtraCommon
+11 = LExtraPlatform
+12 = LExtraVariation
+13 = NormalChecklist
+14 = EmergencyChecklist
+15 = BulleyeMap
+16 = FlightPathMap
+17 = EngagementZoneMap
+18 = CAS
+19 = Notes
+20 = RExtraCommon
+21 = RExtraPlatform
+22 = RExtraVariation
